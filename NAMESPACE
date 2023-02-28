@@ -1,0 +1,15 @@
+importFrom("utils", "menu")
+importFrom("stats", "pbeta", "sd", "dbinom", "pbinom", "pnorm", "qbeta", "qnorm")
+export(AADouble,
+       AAMultiple,
+       AASingle,
+       AAZ14Double,
+       AAZ14Multiple,
+       AAZ14Single,
+       AAZ19,
+       EPn,
+       MPn,
+       OCASNZ4D,
+       OCASNZ4S,
+       OCASNZ4M
+       )
