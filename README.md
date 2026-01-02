@@ -1,5 +1,25 @@
 # AQLSchemesCust
 
+<!-- Technology Badges -->
+![R](https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white)
+![License: GPL-2](https://img.shields.io/badge/License-GPL--2-blue.svg)
+![Package](https://img.shields.io/badge/Type-R%20Package-orange.svg)
+![Version](https://img.shields.io/badge/Version-1.7--2-green.svg)
+
+## ⚠️ Versión Modificada
+
+**AQLSchemesCust** es una versión editada de la librería original [**AQLSchemes**](https://CRAN.R-project.org/package=AQLSchemes) desarrollada por **John Lawson**.
+
+### Modificación Principal
+
+Esta versión **elimina el ingreso forzoso de parámetros mediante la terminal** (menu interactivo) que tenía la librería original. En su lugar, **permite el ingreso de parámetros directamente en las funciones**, lo que facilita significativamente su **implementación programática** y automatización en scripts de R.
+
+**Ventajas de esta versión modificada:**
+- ✅ **Programación sin interrupciones**: No requiere intervención manual del usuario
+- ✅ **Automatización**: Ideal para procesos batch y pipelines de calidad
+- ✅ **Integración**: Fácil de integrar en sistemas de análisis automatizado
+- ✅ **Reproducibilidad**: Permite scripts completamente reproducibles
+
 ## Descripción
 
 **AQLSchemesCust** es un paquete de R para recuperar esquemas de muestreo de aceptación basados en AQL (Nivel de Calidad Aceptable o Acceptable Quality Level).
@@ -103,9 +123,9 @@ Este paquete está distribuido bajo la licencia GPL-2.
 
 ## Autor y Mantenedor
 
-- **Autor**: John Lawson <lawsonjsl7net@gmail.com>
-- **Mantenedor**: John Lawson <lawsonjsl7net@gmail.com>
-- **Empaquetado**: Francisco J. González M.
+- **Autor Original**: John Lawson <lawsonjsl7net@gmail.com> - [AQLSchemes](https://CRAN.R-project.org/package=AQLSchemes)
+- **Modificación y Adaptación**: Francisco J. González M.
+- **Repositorio Original**: [CRAN - AQLSchemes](https://CRAN.R-project.org/package=AQLSchemes)
 
 ## Información del Paquete
 
@@ -120,4 +140,4 @@ Para reportar problemas o contribuir al desarrollo del paquete, por favor visite
 
 ---
 
-*Este paquete es una implementación modificada que facilita el acceso a los esquemas de muestreo de aceptación más utilizados en la industria para el control de calidad.*
+*Esta es una versión modificada del paquete original **AQLSchemes** de John Lawson. La modificación principal consiste en eliminar el ingreso interactivo por terminal (funciones `menu()`) y permitir el paso de parámetros directamente a las funciones, facilitando su uso programático y automatización en scripts de R para control de calidad.*
