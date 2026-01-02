@@ -6,7 +6,7 @@
 This function recalls Normal, Tightened and Reduced Plans including the sample size n, acceptability constant (k), and the maximum proportion nonconforming allowable M.
 }
 \usage{
-AAZ19(type,stype,INSL,LOTS,AQL)
+AAZ19(type,stype,dINSL,dLOTS,dAQL)
 }
 \value{
 returns a vector of length 3 containing the sample size (n), acceptability constant (k), and the maximum proportion nonconforming allowable (M)).
@@ -14,9 +14,9 @@ returns a vector of length 3 containing the sample size (n), acceptability const
 \arguments{
   \item{type}{type is the plan type 'Normal', 'Tightened', or 'Reduced', Normal is Default.}
   \item{stype}{stype is "known" or "unknown", unknown is Default}
-  \item{INSL}{INSL is 1-5}
-  \item{LOTS}{LOTS is 1-16}
-  \item{AQL}{AQL is 1-11}
+  \item{dINSL}{dINSL is 1-5}
+  \item{dLOTS}{dLOTS is 1-16}
+  \item{dAQL}{dAQL is 1-11}
 }
 \references{
 <https://archive.org/details/MIL-STD-414>
